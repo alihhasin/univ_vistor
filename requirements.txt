@@ -1,0 +1,33 @@
+# Enhanced Virtual Campus Tour - Requirements
+# Core dependencies
+streamlit==1.37.1
+pandas==2.2.2
+openpyxl==3.1.5
+
+# Mapping and visualization
+folium==0.17.0
+streamlit-folium==0.22.0
+plotly==5.22.0
+geopy==2.4.1
+
+# Image processing
+Pillow==10.4.0
+
+# Utilities
+python-slugify==8.0.4
+
+# Enhanced features (optional but recommended)
+streamlit-extras==0.4.7  # For additional UI components
+
+# Security (optional - uncomment if needed)
+# bleach==6.1.0  # For input sanitization
+# cryptography==42.0.5  # For encryption
+
+# Performance (optional - uncomment if needed)
+# redis==5.0.1  # For caching
+# aiofiles==23.2.1  # For async file operations
+
+# Cloud storage (optional - uncomment if needed)
+# gspread==6.0.2  # For Google Sheets integration
+# google-auth==2.28.1  # For Google authentication
+# cloudinary==1.38.0  # For CDN integration
